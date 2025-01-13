@@ -10,6 +10,10 @@
 
 Este proyecto fue desarrollado para cumplir con los requisitos de aprobación del módulo de HTML y CSS. La temática es libre, y se desarrolló una página web única, representando nuestra propia idea y modelo de negocio.
 
+<p align="center">
+    <img src="./app/assets/images/plantas/portada01.avif" width="25%">
+</p>
+
 ## 📝 Requisitos de Aprobación
 
 1. **Tecnologías utilizadas:**
