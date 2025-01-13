@@ -1,12 +1,31 @@
 .list-images {
     list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Permitir que las cards se ajusten en varias filas si es necesario */
+    justify-content: center;
+
+    /* Centrar horizontalmente las cards */
+    align-items: center;
+
+    /* Centrar verticalmente las cards */
+    gap: 1rem;
+
+    /* Espaciado entre las cards */
+    padding: 1rem;
+
+    /* Opcional: agregar espacio dentro del contenedor */
+    margin: 0 auto;
 }
 
 .list-image {
     /* width: 100%; */
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
     object-position: center;
+    padding-bottom: 10px;
 }
 
 .list-item {
@@ -18,13 +37,28 @@
     margin: 1rem;
     padding: 1rem;
     border-radius: 1rem;
+
+    /* Agregar sombra */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+
+    /* Agregar un borde tenue */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    /* Suavizar las transiciones al interactuar */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+/* Agregar un efecto al pasar el cursor por encima */
+.list-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .list-icon {
     position: absolute;
     z-index: 1;
-    top: 0.25rem;
-    left: -1rem;
+    top: 0.45rem;
     height: 0.25in;
     fill: salmon;
     cursor: pointer;
@@ -35,9 +69,80 @@ fill: red;
 } */
 
 .list-thumb {
-    width: 230px;
-    display: block;
-    aspect-ratio: 1/1;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    /* Mantiene la relación de aspecto cuadrada */
+    display: flex;
+    justify-content: center;
+
+    /* Centra horizontalmente */
+    align-items: center;
+
+    /* Centra verticalmente */
     overflow: hidden;
-    padding: 1rem;
+    padding: 0;
+
+    /* Elimina el padding que afecta la alineación */
+    border-radius: 0.5rem;
+}
+
+.info-card {
+    margin-top: 1rem;
+}
+
+.titulo-planta {
+    font-size: 18px;
+
+    /* Subrayado ondulado */
+    text-decoration: underline wavy rgba(0, 150, 0, 0.8);
+    
+    /* Distancia entre el texto y el subrayado */
+    text-underline-offset: 4px;
+
+    font-weight: bold;
+    color: #333;
+
+    padding-bottom: 10px;
+
+}
+
+.color-precio {
+    color: red;
+    font-weight: bold;
+}
+
+
+.boton_comprar { 
+    float: right;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.boton_favoritos {
+    position: absolute; /* Asegura que se ubique sobre la card */
+    top: 0.5rem;
+    left: 0.5rem; /* Cambia según la ubicación deseada */
+    width: 2rem; /* Tamaño del botón */
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.boton_favoritos:hover {
+    transform: scale(1.1);
+}
+
+.boton_favoritos svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill:salmon;
 }
