@@ -10,6 +10,7 @@
 <p align="center">
     <img src="./app/assets/images/logos/logo3.png" width="40">
 </p>
+
 # Proyecto Final del Módulo de HTML y CSS
 
 <p align="center">
