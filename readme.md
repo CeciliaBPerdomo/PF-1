@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./images/logos/myAvatar.png" width="25%">
+    <img src="./app/assets/images/logos/myAvatar.png" width="25%">
 </p>
 
 <p align="center">
@@ -61,6 +61,6 @@ Este proyecto fue desarrollado para cumplir con los requisitos de aprobación de
 
 ## 🌐 Enlaces de Entrega
 - **Repositorio en GitHub:** [https://github.com/CeciliaBPerdomo/PF-1](#)
-- **Deployment en Vercel:** [Enlace aquí](#)
+- **Deployment en Vercel:** [https://plantis-two.vercel.app/](#)
 
 ¡Gracias por visitar este proyecto!
