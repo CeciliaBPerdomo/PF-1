@@ -8,6 +8,9 @@
 /* Importacion de los estilos del navbar */
 @import url('./navbar.css');
 
+/* Importacion de los estilos del footer  */
+@import url('./footer.css');
+
 * { 
     margin: 0px;
     padding: 0px;
