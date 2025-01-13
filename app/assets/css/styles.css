@@ -5,6 +5,9 @@
 @import url('./cards.css');
 
 
+/* Importacion de los estilos del navbar */
+@import url('./navbar.css');
+
 * { 
     margin: 0px;
     padding: 0px;

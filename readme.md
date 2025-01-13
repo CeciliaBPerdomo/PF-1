@@ -1,12 +1,15 @@
 <p align="center">
-    <img src="./app/assets/images/logos/myAvatar.png" width="25%">
+    <img src="./app/assets/images/logos/myAvatar.png" width="25%" style="border-radius: 50%;">
 </p>
 
 <p align="center">
     By <b>Cecilia Perdomo<b>
 </p>
 
-# Proyecto Final del Módulo de HTML y CSS
+<p align="center">
+    <img src="./app/assets/images/logos/logo3.png" width="30" alt="Icono Proyecto">
+    <b>Proyecto Final del Módulo de HTML y CSS</b>
+</p>
 
 <p align="center">
     <img src="./app/assets/images/plantas/portada01.avif" width="50%">

@@ -18,6 +18,7 @@
 
     /* Opcional: agregar espacio dentro del contenedor */
     margin: 0 auto;
+    margin-top: 70px;
 }
 
 .list-image {
