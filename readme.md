@@ -6,10 +6,11 @@
     By <b>Cecilia Perdomo<b>
 </p>
 
+
 <p align="center">
-    <img src="./app/assets/images/logos/logo3.png" width="30" alt="Icono Proyecto">
-    <b>Proyecto Final del Módulo de HTML y CSS</b>
+    <img src="./app/assets/images/logos/logo3.png" width="40">
 </p>
+# Proyecto Final del Módulo de HTML y CSS
 
 <p align="center">
     <img src="./app/assets/images/plantas/portada01.avif" width="50%">
