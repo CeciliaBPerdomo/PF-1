@@ -11,6 +11,16 @@
 /* Importacion de los estilos del footer  */
 @import url('./footer.css');
 
+/* Importacion de los estilos del login */
+@import url('./login.css');
+
+/* Importacion de los estilos del registro */
+@import url('./registro.css');
+
+
+/* Importacion de los estilos de beneficios */
+@import url('./beneficios.css');
+
 * { 
     margin: 0px;
     padding: 0px;

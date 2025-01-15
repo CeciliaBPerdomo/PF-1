@@ -43,3 +43,7 @@ button a {
 button:hover {
     background-color: #45a049;
 }
+
+.home a {
+    text-decoration: none;
+ }

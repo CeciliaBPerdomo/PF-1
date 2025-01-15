@@ -18,7 +18,17 @@
 
     /* Opcional: agregar espacio dentro del contenedor */
     margin: 0 auto;
+
+}
+
+.cards-plantas {
     margin-top: 70px;
+}
+
+.cards-plantas h1 {
+    font-weight: bold;
+    margin-left: 2rem;
+    padding-top: 2rem;
 }
 
 .list-image {
@@ -96,7 +106,7 @@ fill: red;
 
     /* Subrayado ondulado */
     text-decoration: underline wavy rgba(0, 150, 0, 0.8);
-    
+
     /* Distancia entre el texto y el subrayado */
     text-underline-offset: 4px;
 
@@ -113,7 +123,7 @@ fill: red;
 }
 
 
-.boton_comprar { 
+.boton_comprar {
     float: right;
     border: 1px solid green;
     padding: 10px;
@@ -122,10 +132,13 @@ fill: red;
 }
 
 .boton_favoritos {
-    position: absolute; /* Asegura que se ubique sobre la card */
+    position: absolute;
+    /* Asegura que se ubique sobre la card */
     top: 0.5rem;
-    left: 0.5rem; /* Cambia según la ubicación deseada */
-    width: 2rem; /* Tamaño del botón */
+    left: 0.5rem;
+    /* Cambia según la ubicación deseada */
+    width: 2rem;
+    /* Tamaño del botón */
     height: 2rem;
     display: flex;
     justify-content: center;
@@ -145,5 +158,5 @@ fill: red;
 .boton_favoritos svg {
     width: 1.5rem;
     height: 1.5rem;
-    fill:salmon;
+    fill: salmon;
 }
