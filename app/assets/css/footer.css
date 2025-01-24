@@ -1,11 +1,10 @@
 .footer {
-    background-color: #8bec8e;
     padding: 10px 20px;
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
     left: 0;
     z-index: 9;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
 
 
     width: 100%;
@@ -18,12 +17,13 @@
     padding: 0.5rem;
     text-align: end;
     margin-top: 2rem;
+    color: white;
 }
 
 .menu_footer a,
 span {
     text-decoration: none;
-    color: black;
+    color: white;
     margin-right: 3rem;
     padding: 0.5rem;
 }
@@ -34,5 +34,5 @@ span {
 
 .desarrollo a {
     text-decoration: none;
-    color: black;
+    color: violet;
 }

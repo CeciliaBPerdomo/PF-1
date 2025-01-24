@@ -1,6 +1,5 @@
 body>header {
     width: 100vw;
-    background-color: #8bec8e;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -27,7 +26,7 @@ body>header>a h2 {
 }
 
 .img_logo {
-    width: 3rem;
+    width: 4rem;
     text-decoration: none;
 }
 
@@ -49,6 +48,10 @@ body>header>nav a {
     padding-right: 15px;
 }
 
+body>header>nav a:hover {
+    color: violet;
+}
+
 body>header>form {
     display: flex;
     flex-direction: column;
@@ -66,11 +69,10 @@ body>header>form a {
     border-radius: 10px;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s, color 0.3s; 
-    margin-right: 0.25rem;
+    margin-right: 1.75rem;
 }	
 
 body > header > form a:hover {
-    background-color: white; 
-    color: #8bec8e;
+    color: violet;
 }
 

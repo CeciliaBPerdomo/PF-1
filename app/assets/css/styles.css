@@ -1,12 +1,14 @@
 /* Fuente de google */
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
 
-/* Importacion de los estilos del card */
-@import url('./cards.css');
-
-
 /* Importacion de los estilos del navbar */
 @import url('./navbar.css');
+
+/* Importcion de los estilos de la Portada */
+@import url('./portada.css');
+
+/* Importacion de los estilos del card */
+@import url('./cards.css');
 
 /* Importacion de los estilos del footer  */
 @import url('./footer.css');
@@ -28,10 +30,12 @@
 
     /* Letra para todo el documento */
     font-family: "Montserrat", serif;
+    color: white;
 }
 
 body {
-    background-color: azure;
+    background: url("../../assets/images/fondos/lila.jpg");
+    background-size: cover;
 }
 
 h1 { 
