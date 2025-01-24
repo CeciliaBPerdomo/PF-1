@@ -63,16 +63,16 @@
 
 /* Corazon de favoritos */
 #card-favoritos {
-    position: absolute; 
-    top: 10px; 
+    position: absolute;
+    top: 10px;
     right: 10px;
-    z-index: 9; 
+    z-index: 9;
 }
 
 #card-favoritos>form button {
     width: 2rem;
     height: 2rem;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,7 @@
     fill: white;
 }
 
-#card-favoritos>form button svg:hover{
+#card-favoritos>form button svg:hover {
     fill: violet;
 }
 
@@ -145,7 +145,7 @@
 
     /* Distancia entre el texto y el subrayado */
     text-underline-offset: 4px;
-    
+
 }
 
 #card-info>section p.precio-planta {
@@ -154,9 +154,23 @@
 }
 
 /* Boton de comprar */
+#card-cart>form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 #card-cart>form button {
-    float: right;
-    border: 1px solid green;
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    border: 1px solid violet;
     padding: 10px;
     border-radius: 15px;
     background-color: transparent;
