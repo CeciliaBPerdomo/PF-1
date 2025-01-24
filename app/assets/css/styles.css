@@ -34,6 +34,7 @@
 }
 
 body {
+    background-color: black;
     background: url("../../assets/images/fondos/lila.jpg");
     background-size: cover;
 }
