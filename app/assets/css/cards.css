@@ -1,41 +1,30 @@
-#cards-plantas {
+#plantas {
     width: 100%;
+    color: black;
 }
 
-/* Encabezado */
-#cards-plantas>section>h1 {
-    color: white;
+/* Titulo */
+#plantas>header>h1 {
+    color: black;
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
 }
 
 /* Tarjetas */
-#cards-plantas>section>ul {
-    list-style: none;
+#plantas-cards {
     display: flex;
-    flex-wrap: wrap;
-
-    /* Permitir que las cards se ajusten en varias filas si es necesario */
+    flex-flow: row wrap;
     justify-content: center;
-
-    /* Centrar horizontalmente las cards */
     align-items: center;
-
-    /* Centrar verticalmente las cards */
     gap: 1rem;
-
-    /* Espaciado entre las cards */
     padding: 1rem;
-
-    /* Opcional: agregar espacio dentro del contenedor */
     margin: 0 auto;
-
-
 }
 
 /* Tarjeta especifica */
-#cards-plantas>section>ul li {
+#plantas-cards>li {
+    list-style: none;
     position: relative;
     display: inline-block;
     width: 230px;
@@ -56,7 +45,7 @@
 }
 
 /* Agregar un efecto al pasar el cursor por encima */
-#cards-plantas>section>ul li:hover {
+#plantas-cards>li:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.1);
 }
@@ -69,92 +58,93 @@
     z-index: 9;
 }
 
-#card-favoritos>form button {
+#card-favoritos>button {
     width: 2rem;
     height: 2rem;
+    padding: 0.25rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
 
-    border: 1px solid black;
+    border: 1px solid violet;
     background: none;
     border-radius: 30%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
-#card-favoritos>form button:hover {
+#card-favoritos>button:hover {
     transform: scale(1.1);
 }
 
-#card-favoritos>form button svg {
+#card-favoritos>button svg {
     width: 1.5rem;
     height: 1.5rem;
-    fill: white;
 }
 
-#card-favoritos>form button svg:hover {
+#card-favoritos>button svg:hover {
     fill: violet;
 }
 
 /* Imagen de la planta */
-#card-image>picture {
+#card-image {
     width: 100%;
     aspect-ratio: 1 / 1;
-    /* Mantiene la relación de aspecto cuadrada */
     display: flex;
     justify-content: center;
-
-    /* Centra horizontalmente */
     align-items: center;
-
-    /* Centra verticalmente */
     overflow: hidden;
     padding: 0;
-
-    /* Elimina el padding que afecta la alineación */
     border-radius: 0.5rem;
 }
 
-#card-image>picture img {
-    /* width: 100%; */
+#card-image img {
+    width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     padding-bottom: 10px;
 }
 
+.info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
 /* Info especifica de la planta */
-#card-info {
-    margin-top: 1rem;
+.nombre-planta {
+    flex: 1;
+    padding: 0 0.25rem;
 }
 
-#card-info>p {
-    font-size: 18px;
+.nombre-planta dt {
+    display: none;
+}
+
+.nombre-planta dd {
     font-weight: 600;
-    color: white;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-#card-info>p.titulo-planta {
-    /* Subrayado ondulado */
     text-decoration: underline wavy violet;
-
-    /* Distancia entre el texto y el subrayado */
-    text-underline-offset: 4px;
-
+    text-underline-offset: 2px;
 }
 
-#card-info>section p.precio-planta {
-    width: 100%;
-    text-align: center;
+.precio-planta dt {
+    display: none;
+}
+
+.precio-planta dd {
+    font-weight: 400;
 }
 
 /* Boton de comprar */
-#card-cart>form {
+#card-cart {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -162,7 +152,7 @@
     align-content: center;
 }
 
-#card-cart>form button {
+#card-cart> button {
     width: 90%;
 
     display: flex;
@@ -174,13 +164,10 @@
     padding: 10px;
     border-radius: 15px;
     background-color: transparent;
+    cursor: pointer;
 }
 
-#card-cart>form button:hover {
+#card-cart button:hover {
     transform: scale(1.1);
     background-color: violet;
-}
-
-#card-cart>form button svg {
-    cursor: pointer;
 }

@@ -18,7 +18,7 @@
             <h2>Mis plantis</h2>
         </a>
 
-        <nav>            
+        <nav>
             <a href="./app/pages/auth/login.html">Iniciar sesión</a>
             <a href="./app/pages/auth/registro.html">Registrarse</a>
         </nav>
@@ -39,9 +39,8 @@
                     Somos tu destino confiable para crear, cuidar y disfrutar de tu
                     propio oasis verde.
                 </strong></p>
-            <form action="">
-                <button>Más info</button>
-            </form>
+
+            <a href="#">Más info</a>
         </article>
 
         <article id="card-portada">
@@ -51,189 +50,205 @@
         </article>
     </main>
 
+    <!-- Acerca de nosotros -->
+
+
+    <!-- Beneficios -->
+
     <!-- Cards de plantas (con boton de compra y titulo, precio)-->
-    <section id="cards-plantas">
-        <section id="plantas-encabeazdo">
-            <h1>Nuestros últimos ingresos</h1>
-        </section>
-        <section id="plantas-cards">
-            <ul class="list list-images">
-                <li class="list-item">
-                    <!-- Corazon de favoritos -->
-                    <section id="card-favoritos">
-                        <form action="">
-                            <button class="boton_favoritos">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"
-                                    fill="currentColor" id="list-icon active">
-                                    <path
-                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                                </svg>
-                            </button>
-                        </form>
-                    </section>
-           
+    <section id="plantas">
+        <header id="plantas-titulo">
+            <h1>Nuestros productos</h1>
+        </header>
 
-                    <!-- Imagen -->
-                    <section id="card-image">
-                        <picture class="list-thumb">
-                            <img src="./app/assets/images/plantas/planta08.png" class="list-image">
-                        </picture>
-                    </section>
-             
+        <ul id="plantas-cards">
+            <li class="list-item">
+                <!-- Corazon de favoritos -->
+                <form action="" id="card-favoritos">
+                    <button class="boton_favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"
+                            fill="currentColor" id="list-icon active">
+                            <path
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                        </svg>
+                    </button>
+                </form>
 
-                    <!-- Datos de la planta -->
-                    <section id="card-info">
-                        <p class="titulo-planta">Costilla de Adán</p>
-                        <p class="precio-planta">Precio: $ 499</p>
-                    </section>
-             
-                    <!-- Carrito -->
-                    <section id="card-cart">
-                        <form action="">
-                            <button id="boton_comprar">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="currentColor">
-                                    <path
-                                        d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.88 13.76h8.24c.83 0 1.57-.5 1.88-1.25l2.75-6.5c.18-.42.07-.9-.27-1.22-.34-.33-.82-.43-1.25-.27l-13.17 5.24L4.09 2H1v2h2l3.6 7.59-.35.71c-.18.43-.07.9.27 1.23.34.33.83.42 1.27.25l.09-.04zM6.16 10l1.12-2.57L15.47 6H6.16z" />
-                                </svg>
+                <!-- Imagen -->
+                <picture id="card-image">
+                    <img src="./app/assets/images/plantas/planta08.png">
+                </picture>
 
-                            </button>
-                        </form>
-                    </section>
-                </li>
+                <!-- Datos de la planta -->
+                <ul>
+                    <li class="info">
+                        <dl class="nombre-planta">
+                            <dt class="titulo-planta">Nombre</dt>
+                            <dd>Costilla de Adán</dd>
+                        </dl>
+                    </li>
+                    <li class="info">
+                        <dl class="precio-planta">
+                            <dt>Precio</dt>
+                            <dd>Precio: $ 499</dd>
+                        </dl>
+                    </li>
+                </ul>
 
-                <li class="list-item">
-                    <!-- Corazon de favoritos -->
-                    <section id="card-favoritos">
-                        <form action="">
-                            <button class="boton_favoritos">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"
-                                    fill="currentColor" id="list-icon active">
-                                    <path
-                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                                </svg>
-                            </button>
-                        </form>
-                    </section>
-           
+                <!-- Carrito -->
+                <form action="" id="card-cart">
+                    <button id="boton_comprar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.88 13.76h8.24c.83 0 1.57-.5 1.88-1.25l2.75-6.5c.18-.42.07-.9-.27-1.22-.34-.33-.82-.43-1.25-.27l-13.17 5.24L4.09 2H1v2h2l3.6 7.59-.35.71c-.18.43-.07.9.27 1.23.34.33.83.42 1.27.25l.09-.04zM6.16 10l1.12-2.57L15.47 6H6.16z" />
+                        </svg>
+                    </button>
+                </form>
+            </li>
 
-                    <!-- Imagen -->
-                    <section id="card-image">
-                        <picture class="list-thumb">
-                            <img src="./app/assets/images/plantas/planta09.png" class="list-image">
-                        </picture>
-                    </section>
+            <li class="list-item">
+                <!-- Corazon de favoritos -->
+                <form action="" id="card-favoritos">
+                    <button class="boton_favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"
+                            fill="currentColor" id="list-icon active">
+                            <path
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                        </svg>
+                    </button>
+                </form>
 
-                    <!-- Datos de la planta -->
-                    <section id="card-info">
-                        <p class="titulo-planta">Potus</p>
-                        <p class="precio-planta">Precio: $ 699</p>
-                    </section>
+                <!-- Imagen -->
+                <picture id="card-image">
+                    <img src="./app/assets/images/plantas/planta09.png">
+                </picture>
 
-                    <!-- Carrito -->
-                    <section id="card-cart">
-                        <form action="">
-                            <button id="boton_comprar">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="currentColor">
-                                    <path
-                                        d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.88 13.76h8.24c.83 0 1.57-.5 1.88-1.25l2.75-6.5c.18-.42.07-.9-.27-1.22-.34-.33-.82-.43-1.25-.27l-13.17 5.24L4.09 2H1v2h2l3.6 7.59-.35.71c-.18.43-.07.9.27 1.23.34.33.83.42 1.27.25l.09-.04zM6.16 10l1.12-2.57L15.47 6H6.16z" />
-                                </svg>
+                <!-- Datos de la planta -->
+                <ul>
+                    <li class="info">
+                        <dl class="nombre-planta">
+                            <dt class="titulo-planta">Nombre</dt>
+                            <dd>Potus</dd>
+                        </dl>
+                    </li>
+                    <li class="info">
+                        <dl class="precio-planta">
+                            <dt>Precio</dt>
+                            <dd>Precio: $ 699</dd>
+                        </dl>
+                    </li>
+                </ul>
 
-                            </button>
-                        </form>
-                    </section>
-                </li>
+                <!-- Carrito -->
+                <form action="" id="card-cart">
+                    <button id="boton_comprar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.88 13.76h8.24c.83 0 1.57-.5 1.88-1.25l2.75-6.5c.18-.42.07-.9-.27-1.22-.34-.33-.82-.43-1.25-.27l-13.17 5.24L4.09 2H1v2h2l3.6 7.59-.35.71c-.18.43-.07.9.27 1.23.34.33.83.42 1.27.25l.09-.04zM6.16 10l1.12-2.57L15.47 6H6.16z" />
+                        </svg>
+                    </button>
+                </form>
 
-                <li class="list-item">
-                    <!-- Corazon de favoritos -->
-                    <section id="card-favoritos">
-                        <form action="">
-                            <button class="boton_favoritos">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"
-                                    fill="currentColor" id="list-icon active">
-                                    <path
-                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                                </svg>
-                            </button>
-                        </form>
-                    </section>
- 
+            </li>
 
-                    <!-- Imagen -->
-                    <section id="card-image">
-                        <picture class="list-thumb">
-                            <img src="./app/assets/images/plantas/planta22.png" class="list-image">
-                        </picture>
-                    </section>
-          
-                    <!-- Datos de la planta -->
-                    <section id="card-info">
-                        <p class="titulo-planta">Potus</p>
-                        <p class="precio-planta">Precio: $ 399</p>
-                    </section>
-
-                    <!-- Carrito -->
-                    <section id="card-cart">
-                        <form action="">
-                            <button id="boton_comprar">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="currentColor">
-                                    <path
-                                        d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.88 13.76h8.24c.83 0 1.57-.5 1.88-1.25l2.75-6.5c.18-.42.07-.9-.27-1.22-.34-.33-.82-.43-1.25-.27l-13.17 5.24L4.09 2H1v2h2l3.6 7.59-.35.71c-.18.43-.07.9.27 1.23.34.33.83.42 1.27.25l.09-.04zM6.16 10l1.12-2.57L15.47 6H6.16z" />
-                                </svg>
-
-                            </button>
-                        </form>
-                    </section>
-                </li>
-
-                <li class="list-item">
-                    <!-- Corazon de favoritos -->
-                    <section id="card-favoritos">
-                        <form action="">
-                            <button class="boton_favoritos">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"
-                                    fill="currentColor" id="list-icon active">
-                                    <path
-                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                                </svg>
-                            </button>
-                        </form>
-                    </section>
-        
-
-                    <!-- Imagen -->
-                    <section id="card-image">
-                        <picture class="list-thumb">
-                            <img src="./app/assets/images/plantas/planta23.png" class="list-image">
-                        </picture>
-                    </section>
-
-                    <!-- Datos de la planta -->
-                    <section id="card-info">
-                        <p class="titulo-planta">Crotón</p>
-                        <p class="precio-planta">Precio: $ 499</p>
-                    </section>
+            <li class="list-item">
+                <!-- Corazon de favoritos -->
+                <form action="" id="card-favoritos">
+                    <button class="boton_favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"
+                            fill="currentColor" id="list-icon active">
+                            <path
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                        </svg>
+                    </button>
+                </form>
 
 
-                    <!-- Carrito -->
-                    <section id="card-cart">
-                        <form action="">
-                            <button id="boton_comprar">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="currentColor">
-                                    <path
-                                        d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.88 13.76h8.24c.83 0 1.57-.5 1.88-1.25l2.75-6.5c.18-.42.07-.9-.27-1.22-.34-.33-.82-.43-1.25-.27l-13.17 5.24L4.09 2H1v2h2l3.6 7.59-.35.71c-.18.43-.07.9.27 1.23.34.33.83.42 1.27.25l.09-.04zM6.16 10l1.12-2.57L15.47 6H6.16z" />
-                                </svg>
+                <!-- Imagen -->
+                <picture id="card-image">
+                    <img src="./app/assets/images/plantas/planta22.png">
+                </picture>
 
-                            </button>
-                        </form>
-                    </section>
-                </li>
-            </ul>
-        </section>
+
+                <!-- Datos de la planta -->
+                <ul>
+                    <li class="info">
+                        <dl class="nombre-planta">
+                            <dt class="titulo-planta">Nombre</dt>
+                            <dd>Ave del Paraíso</dd>
+                        </dl>
+                    </li>
+                    <li class="info">
+                        <dl class="precio-planta">
+                            <dt>Precio</dt>
+                            <dd>Precio: $ 399</dd>
+                        </dl>
+                    </li>
+                </ul>
+
+                <!-- Carrito -->
+                <form action="" id="card-cart">
+                    <button id="boton_comprar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.88 13.76h8.24c.83 0 1.57-.5 1.88-1.25l2.75-6.5c.18-.42.07-.9-.27-1.22-.34-.33-.82-.43-1.25-.27l-13.17 5.24L4.09 2H1v2h2l3.6 7.59-.35.71c-.18.43-.07.9.27 1.23.34.33.83.42 1.27.25l.09-.04zM6.16 10l1.12-2.57L15.47 6H6.16z" />
+                        </svg>
+                    </button>
+                </form>
+            </li>
+
+            <li class="list-item">
+                <!-- Corazon de favoritos -->
+                <form action="" id="card-favoritos">
+                    <button class="boton_favoritos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"
+                            fill="currentColor" id="list-icon active">
+                            <path
+                                d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                        </svg>
+                    </button>
+                </form>
+
+                <!-- Imagen -->
+                <picture id="card-image">
+                    <img src="./app/assets/images/plantas/planta23.png">
+                </picture>
+
+                <!-- Datos de la planta -->
+                <ul>
+                    <li class="info">
+                        <dl class="nombre-planta">
+                            <dt class="titulo-planta">Nombre</dt>
+                            <dd>Crotón</dd>
+                        </dl>
+                    </li>
+                    <li class="info">
+                        <dl class="precio-planta">
+                            <dt>Precio</dt>
+                            <dd>Precio: $ 799</dd>
+                        </dl>
+                    </li>
+                </ul>
+
+                <!-- Carrito -->
+                <form action="" id="card-cart">
+                    <button id="boton_comprar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zM7.88 13.76h8.24c.83 0 1.57-.5 1.88-1.25l2.75-6.5c.18-.42.07-.9-.27-1.22-.34-.33-.82-.43-1.25-.27l-13.17 5.24L4.09 2H1v2h2l3.6 7.59-.35.71c-.18.43-.07.9.27 1.23.34.33.83.42 1.27.25l.09-.04zM6.16 10l1.12-2.57L15.47 6H6.16z" />
+                        </svg>
+                    </button>
+                </form>
+            </li>
+        </ul>
+
     </section>
+
+    <!-- Contacto -->
 
     <!-- Logo de whatsapp -->
 

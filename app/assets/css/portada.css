@@ -9,7 +9,7 @@
     padding-top: 3rem;
 }
 
-
+/* Texto */
 #content-portada {
     width: 40%;
     display: flex;
@@ -31,24 +31,32 @@
     line-height: 1.75rem;
 }
 
-#content-portada button {
+#content-portada> a {
+    text-decoration: none;
+    
     width: 250px;
     height: 60px;
-    padding: 0.5rem 1rem;
-    border: white 1px solid;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: black 1px solid;
     border-radius: 1.5rem;
     background: none;
-    color: white;
+    color: black;
+
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
     cursor: pointer;
     margin-top: 2.5rem;
 }
 
-#content-portada button:hover {
+#content-portada> a:hover {
     color: violet;
 }
 
+/* Imagen de planta */
 #card-portada {
     width: 40%;
     display: flex;
