@@ -5,6 +5,7 @@
     height: 7rem;
 
     text-align: center;
+    font-weight: 600;
 }
 
 .desarrollo {
@@ -13,8 +14,6 @@
     margin-top: 2rem;
     color: black;
 }
-
-
 
 .desarrollo a {
     text-decoration: none;
