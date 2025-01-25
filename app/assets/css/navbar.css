@@ -65,4 +65,5 @@ body>header>nav a {
 
 body>header>nav a:hover {
     color: violet;
+    font-weight: 600;
 }

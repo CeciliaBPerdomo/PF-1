@@ -54,6 +54,7 @@
 
 #content-portada> a:hover {
     color: violet;
+    font-weight: 600;
 }
 
 /* Imagen de planta */
