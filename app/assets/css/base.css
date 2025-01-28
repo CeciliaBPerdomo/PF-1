@@ -16,9 +16,7 @@ html {
 }
 
 body {
-    background-color: black;
-    background: url("../images/fondos/flores.jpg");
-    background-size: cover;
+    background-color: #f4fff5;
 }
 
 h1 { 
